@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cogswell Station</title>
+  <meta name="description" content="Cogswell Station — apps and projects, built and documented.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/favicon.svg" alt="" width="34" height="34">
+        <span class="brand__name">Cogswell Station</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="apps/index.html">Apps</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <svg class="hero__gear" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <g fill="currentColor">
+          <circle cx="50" cy="50" r="34"/>
+          <rect x="44" y="2" width="12" height="16" rx="2"/>
+          <rect x="44" y="82" width="12" height="16" rx="2"/>
+          <rect x="2" y="44" width="16" height="12" rx="2"/>
+          <rect x="82" y="44" width="16" height="12" rx="2"/>
+          <rect x="44" y="2" width="12" height="16" rx="2" transform="rotate(45 50 50)"/>
+          <rect x="44" y="82" width="12" height="16" rx="2" transform="rotate(45 50 50)"/>
+          <rect x="2" y="44" width="16" height="12" rx="2" transform="rotate(45 50 50)"/>
+          <rect x="82" y="44" width="16" height="12" rx="2" transform="rotate(45 50 50)"/>
+        </g>
+      </svg>
+      <div class="container hero__inner">
+        <span class="hero__eyebrow">Now departing</span>
+        <h1>Cogswell Station</h1>
+        <p><span class="placeholder">[PLACEHOLDER: one-line tagline — what this station is for, in plain words]</span></p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="apps/index.html">See the apps</a>
+          <a class="btn" href="about.html">About this station</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Featured apps</h2>
+        <p>A few things built and shipped from this station.</p>
+
+        <div class="board" role="table" aria-label="Featured apps">
+          <div class="board__head" role="row">
+            <span role="columnheader">App</span>
+            <span role="columnheader">What it does</span>
+            <span role="columnheader">Status</span>
+          </div>
+
+          <a class="board__row" href="apps/index.html" role="row">
+            <span class="board__name" role="cell">[PLACEHOLDER: App One]</span>
+            <span class="board__desc" role="cell">[PLACEHOLDER: one-sentence description of the app]</span>
+            <span class="board__status" role="cell">On time</span>
+          </a>
+          <a class="board__row" href="apps/index.html" role="row">
+            <span class="board__name" role="cell">[PLACEHOLDER: App Two]</span>
+            <span class="board__desc" role="cell">[PLACEHOLDER: one-sentence description of the app]</span>
+            <span class="board__status" role="cell">On time</span>
+          </a>
+          <a class="board__row" href="apps/index.html" role="row">
+            <span class="board__name" role="cell">[PLACEHOLDER: App Three]</span>
+            <span class="board__desc" role="cell">[PLACEHOLDER: one-sentence description of the app]</span>
+            <span class="board__status" role="cell">Boarding</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <p><span class="placeholder">[PLACEHOLDER: short closing line inviting recruiters/visitors to reach out]</span></p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>&copy; 2026 Cogswell Station</span>
+      <ul class="footer-links">
+        <li><a href="https://github.com/CogswellStation">GitHub</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

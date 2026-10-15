@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Cogswell Station gear monogram">
+  <circle cx="50" cy="50" r="46" fill="#F2E8D8"/>
+  <g fill="#1E6B68">
+    <circle cx="50" cy="50" r="34"/>
+    <g>
+      <rect x="44" y="2" width="12" height="16" rx="2"/>
+      <rect x="44" y="82" width="12" height="16" rx="2"/>
+      <rect x="2" y="44" width="16" height="12" rx="2"/>
+      <rect x="82" y="44" width="16" height="12" rx="2"/>
+      <rect x="44" y="2" width="12" height="16" rx="2" transform="rotate(45 50 50)"/>
+      <rect x="44" y="82" width="12" height="16" rx="2" transform="rotate(45 50 50)"/>
+      <rect x="2" y="44" width="16" height="12" rx="2" transform="rotate(45 50 50)"/>
+      <rect x="82" y="44" width="16" height="12" rx="2" transform="rotate(45 50 50)"/>
+    </g>
+  </g>
+  <circle cx="50" cy="50" r="24" fill="#F2E8D8"/>
+  <path d="M58 38 a14 14 0 1 0 0 24" fill="none" stroke="#C1602C" stroke-width="7" stroke-linecap="round"/>
+</svg>
