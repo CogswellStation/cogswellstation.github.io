@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  NY Food Inspections favicon, vector redraw of assets/favicon.png (48x48): white fork and knife on
-  a #1D4E89 disc. The utensil paths are the same geometry as the utensils group in
-  app-icon-mark.svg, so the two stay visually consistent.
--->
 <svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <title>NY Food Inspections icon</title>
   <circle cx="512" cy="512" r="492" fill="#1D4E89"/>
   <g transform="translate(155.9,87.4) scale(2.85)" fill="#FFFFFF">
     <rect x="45" y="30" width="13" height="70" rx="6"/>
