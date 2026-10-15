@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYFoodInspections · Cogswell Station</title>
+  <meta name="description" content="NYFoodInspections: current health inspection grades for restaurants across New York State.">
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <img class="brand__mark" src="../assets/img/favicon.svg" alt="" width="34" height="34">
+        <span class="brand__name">Cogswell Station</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html" aria-current="page">Apps</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <p><a href="index.html">&larr; Back to Apps</a></p>
+        <h1>NYFoodInspections</h1>
+        <div class="project-meta">
+          <span class="tag">Web app</span>
+          <span class="tag">Maps</span>
+          <span class="tag">Open data</span>
+        </div>
+        <p>Current health inspection grades for restaurants across New York State, from official public data. Not reviews, and not opinions about the food, service, or ambience.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="https://nyfoodinspections.com/">Try it live</a>        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="project-section">
+          <h2>The problem</h2>
+          <p>Restaurant inspection results are public, but they're hard to use. They sit in health department records as lists of violations, and outside of places that post letter grades there's no simple answer to "how did this restaurant do?" Review sites mix food, service, and atmosphere into one score that says nothing about sanitation.</p>
+        </div>
+
+        <div class="project-section">
+          <h2>What I built</h2>
+          <p>A statewide search and map built only on official inspection data.</p>
+          <ul>
+            <li>Search restaurants by name or location, or browse the map</li>
+            <li>Tap a result or map pin to see its current grade</li>
+            <li>View each restaurant's inspection history</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Data source</h2>
+          <p>Official health department inspection and violation records.</p>
+        </div>
+
+        <div class="project-section">
+          <h2>One interesting decision</h2>
+          <p>Not every health department issues letter grades. Where an official grade exists, the app shows it as-is. Where it doesn't, the app calculates one from the violation records using a model based on LA County's letter-grade system, so every restaurant can be compared on the same scale.</p>
+          <p>[PLACEHOLDER: a sentence or two on why you chose LA County's system and how you keep calculated grades clearly separate from official ones.]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Screenshots</h2>
+        <div class="screenshot-grid">
+          <a href="../assets/img/apps/ny-food-inspections-map.webp">
+            <img src="../assets/img/apps/ny-food-inspections-map.webp" width="1280" height="800" loading="lazy" alt="Statewide map of New York with restaurant counts clustered by area, under a search box and a short explanation of where the grades come from.">
+          </a>
+          <a href="../assets/img/apps/ny-food-inspections-grade.webp">
+            <img src="../assets/img/apps/ny-food-inspections-grade.webp" width="1280" height="800" loading="lazy" alt="A restaurant selected on a street map, with a side panel showing its current A grade, a note that the grade is calculated rather than official, and its inspection history by year.">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>&copy; 2026 Cogswell Station</span>
+      <ul class="footer-links">
+        <li><a href="https://github.com/CogswellStation">GitHub</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -368,7 +368,11 @@ ul { padding-left: 1.2em; }
 
 .card__thumb {
   width: 100%;
+  height: auto;
   aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid var(--cream-line);
   border-radius: 6px;
   background:
     repeating-linear-gradient(
@@ -431,11 +435,15 @@ ul { padding-left: 1.2em; }
 .screenshot-grid img,
 .screenshot-grid .placeholder-img {
   width: 100%;
-  aspect-ratio: 4/3;
+  height: auto;
+  aspect-ratio: 16/10;
   border-radius: 8px;
   border: 1px solid var(--cream-line);
   object-fit: cover;
 }
+
+.screenshot-grid a { display: block; border-radius: 8px; }
+.screenshot-grid a:hover img { border-color: var(--rust); }
 
 .placeholder-img {
   display: flex;
