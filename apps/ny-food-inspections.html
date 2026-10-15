@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NYFoodInspections · Cogswell Station</title>
-  <meta name="description" content="NYFoodInspections: current health inspection grades for restaurants across New York State.">
+  <title>NY Food Inspections · Cogswell Station</title>
+  <meta name="description" content="NY Food Inspections: current health inspection grades for restaurants across New York State.">
   <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +35,7 @@
     <section class="section">
       <div class="container">
         <p><a href="index.html">&larr; Back to Apps</a></p>
-        <h1>NYFoodInspections</h1>
+        <h1>NY Food Inspections</h1>
         <div class="project-meta">
           <span class="tag">Web app</span>
           <span class="tag">Maps</span>
@@ -73,7 +73,8 @@
         <div class="project-section">
           <h2>One interesting decision</h2>
           <p>Not every health department issues letter grades. Where an official grade exists, the app shows it as-is. Where it doesn't, the app calculates one from the violation records using a model based on LA County's letter-grade system, so every restaurant can be compared on the same scale.</p>
-          <p>[PLACEHOLDER: a sentence or two on why you chose LA County's system and how you keep calculated grades clearly separate from official ones.]</p>
+          <p>Why not use New York City's system? NYC's score is built from its own violation codes and point values, which other health departments in the state don't share. Most of the statewide data comes down to counts of critical and non-critical violations. LA County's system is well known and simpler: start at 100, deduct points for each major and minor violation, then apply letter cutoffs. That maps directly onto the counts the data actually has.</p>
+          <p>Calculated grades are labeled "Estimated" in search results, and each restaurant's page notes that its grade isn't an official government grade.</p>
         </div>
       </div>
     </section>
