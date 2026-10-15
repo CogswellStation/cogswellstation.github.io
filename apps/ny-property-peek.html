@@ -74,7 +74,9 @@
 
         <div class="project-section">
           <h2>One interesting decision</h2>
-          <p>[PLACEHOLDER: one real challenge or decision. For example: how you handle 5.5 million parcels quickly, or what the map shows in the 24 counties without boundary data.]</p>
+          <p>Clicking the map looks up the property at that spot. But each of the 5.5 million parcels is stored as a single point near the middle of its lot, not its full outline. A plain "find the nearest point" search always returns something: click the middle of a lake or a large park, and you'd get a house half a mile away, shown as if it were the spot you clicked.</p>
+          <p>So the lookup only accepts a match within 75 meters (about 250 feet). Click a lot and you get that property; click empty space and you correctly get nothing.</p>
+          <p>It stays fast because of a spatial index, which organizes parcels by location the way a filing cabinet organizes folders by drawer. Instead of checking all 5.5 million parcels, the lookup opens only the drawer for the area around the click and compares the few properties inside, so results come back in milliseconds.</p>
         </div>
       </div>
     </section>
@@ -86,7 +88,9 @@
           <a href="../assets/img/apps/ny-property-peek-map.webp">
             <img src="../assets/img/apps/ny-property-peek-map.webp" width="1280" height="800" loading="lazy" alt="Street-level map of a town center with property lot outlines, each lot marked by a dot colored by the year it was built, and a year-built legend in the corner.">
           </a>
-          <div class="placeholder-img">[PLACEHOLDER: screenshot of a selected property's details panel]</div>
+          <a href="../assets/img/apps/ny-property-peek-details.webp">
+            <img src="../assets/img/apps/ny-property-peek-details.webp" width="1280" height="800" loading="lazy" alt="A selected property on the map with a details panel showing a photo of the building, the year it was built, its school district, acreage, and assessed and market values.">
+          </a>
         </div>
       </div>
     </section>
