@@ -83,7 +83,7 @@
         <div class="project-section">
           <h2>One interesting decision</h2>
           <p>Not every health department issues letter grades. If there's an official grade, the app shows it. If not, it calculates one from the violation records using a model based on LA County's letter-grade system, so every restaurant gets a grade on the same scale.</p>
-          <p>I didn't use New York City's system because its score is built from NYC's own violation codes and point values, which other health departments in the state don't use. Most of the statewide data is just counts of critical and non-critical violations. LA County's system is well known and simpler: start at 100, subtract points for each major and minor violation, then apply letter cutoffs. That works with the counts the data has.</p>
+          <p>I didn't use New York City's system because its score is built from NYC's own violation codes and point values, which other health departments in the state don't use. Most of the statewide data is just counts of critical and non-critical violations. LA County's system is simpler and widely used. Every restaurant starts at 100 points and loses points for each violation, more for serious ones. The final score becomes a letter grade. Most New York inspection records only say how many serious and minor violations were found, which is why I use the LA County system to calculate these grades.</p>
           <p>Calculated grades are labeled "Estimated" in search results, and each restaurant's page notes that its grade isn't an official government grade.</p>
         </div>
       </div>
