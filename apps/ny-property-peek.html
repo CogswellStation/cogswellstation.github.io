@@ -67,7 +67,7 @@
 
         <div class="project-section">
           <h2>What I built</h2>
-          <p>One statewide map covering more than 5.5 million tax parcels from New York State's GIS records. No account, no install.</p>
+          <p>One statewide map covering more than 5.5 million tax parcels. It works in any browser, and you don't need an account.</p>
           <ul>
             <li>Search by address, or click anywhere on the map</li>
             <li>See year built, square footage, school district, property class, assessed and market value, and acreage</li>
@@ -84,8 +84,8 @@
 
         <div class="project-section">
           <h2>One interesting decision</h2>
-          <p>Clicking the map looks up the property at that spot. But each of the 5.5 million parcels is stored as a single point near the middle of its lot, not its full outline. A plain "find the nearest point" search always returns something: click the middle of a lake or a large park, and you'd get a house half a mile away, shown as if it were the spot you clicked.</p>
-          <p>So the lookup only accepts a match within 75 meters (about 250 feet). Click a lot and you get that property; click empty space and you correctly get nothing.</p>
+          <p>Clicking the map looks up the property at that location. Internally, each of the 5.5 million parcels is stored as a single point near the middle of its lot, not its full outline. A plain "find the nearest point" search would always return something. If you clicked the middle of a lake or a park, you might get a house half a mile away, which would be confusing.</p>
+          <p>So the lookup only accepts a match within 250 feet. That way, if you click on an empty space, you don't get a house that is half a mile away!</p>
           <p>It stays fast because of a spatial index, which organizes parcels by location the way a filing cabinet organizes folders by drawer. Instead of checking all 5.5 million parcels, the lookup opens only the drawer for the area around the click and compares the few properties inside, so results come back in milliseconds.</p>
         </div>
       </div>
