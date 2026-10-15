@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 -6.5 64 64">
+  <title>NY Property Peek icon</title>
+  <polygon
+    points="4.0,30.4 10.5,25.5 8.9,20.9 13.0,19.8 19.8,21.1 25.0,20.4 29.2,17.9 28.4,11.9 35.5,5.7 39.0,4.0 49.5,4.0 48.8,17.7 50.1,18.1 50.0,25.8 48.3,32.2 48.5,40.6 46.1,44.1 54.5,42.8 57.0,41.1 58.2,42.7 60.0,41.9 45.2,47.0 45.5,42.6 37.9,38.0 35.2,33.0 4.0,33.0"
+    fill="#2563eb"
+    stroke="#2563eb"
+    stroke-width="2.5"
+    stroke-linejoin="round"
+    stroke-linecap="round"/>
+</svg>
